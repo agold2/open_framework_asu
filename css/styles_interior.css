@@ -1,0 +1,28 @@
+/*
+ *  Interior styles: custom styles for interior pages on drupal.asu.edu
+ */
+ 
+ /* =Individual Nodes
+-------------------------------------------------------------- */
+/* Gettign started with Pantheon page */
+.page-node-2170 .content img {
+	margin-left: 30px;
+}
+/* Web Hosting page */
+.page-node-2158 .partner-icn {
+	margin-right: 20px;
+}
+.page-node-2158 .intro {
+	padding-top: 10px;
+}
+.page-node-2158 .benefits {
+	margin-top: 10px;
+}
+
+/* =HOST LANDING PAGE
+-------------------------------------------------------------- */
+#block-block-13 h2,
+#block-block-12 h2,
+#block-block-15 h2 {
+	font-size: 1.2em;
+}

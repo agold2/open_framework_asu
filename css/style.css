@@ -1,0 +1,350 @@
+/* THEME OPTIONS ************************** */
+
+/* =GLOBAL
+-------------------------------------------------------------- */
+a {
+	color: #903;
+}
+a:hover {
+	color: #777;
+}
+.whitespace {
+	display: block;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+img.left {
+	margin: 0 10px 10px 0;
+}
+img.right {
+	margin: 0 0 10px 10px;
+}
+
+.navbar-inverse .nav .active > a,
+.navbar-inverse .nav .active > a:hover,
+.navbar-inverse .nav .active > a:focus,
+.navbar-inverse .brand, .navbar-inverse .nav > li > a.active, .highlight {
+  color: #ffcb66;
+}
+
+/* =HEADER
+-------------------------------------------------------------- */
+#asu_search_module .asu_search_selection label {
+	font-size: 12px;
+}
+#header {
+	margin: 0;
+  background: none repeat scroll 0 0 #FFCB66;
+}
+#header,
+#header .container,
+#header .span12,
+#header-content,
+#header-content .region-header,
+#block-asu-brand-asu-brand-header,
+#block-asu-brand-asu-brand-header .content {
+	height: 60px;
+}
+#name-and-slogan {
+	position: absolute;
+	top: 73px;
+	margin-left: 20px;
+	padding: 0;
+}
+.admin-menu #name-and-slogan {
+	top: 93px;
+}
+#site-name {
+	font-size: 18px;
+}
+#site-name a {
+	color: #fff;
+}
+#site-name a:hover {
+	color: #ccc;
+}
+
+/* =NAVIGATION
+-------------------------------------------------------------- */
+#main-menu {
+  background: #1b1b1b;
+}
+.navbar {
+	margin-bottom: 0;
+}
+.navbar-inner {
+	border-radius: 0;
+}
+.navbar-inverse .brand, .navbar-inverse .nav > li > a {
+	color: #fff;
+}
+.navbar-inverse .brand:hover,
+.navbar-inverse .nav > li > a:hover {
+	color: #ccc;
+}
+.navbar .nav > li > .dropdown-menu:after {
+	display: none;
+}
+
+/* =SIDEBARS
+-------------------------------------------------------------- */
+/* FIRST SIDEBAR MENU BLOCKS */
+#sidebar-first {
+	margin-top: 18px;
+}
+#sidebar-first .block-menu-block {
+	background-color: #ddd;
+	border-top: 14px solid #000;
+	margin-left: 1.2em;
+}
+.sidebar ul.nav,
+.sidebar ul.nav ul {
+    margin-left: 0;
+}
+#sidebar-first .block-menu-block ul li.leaf,
+#sidebar-first .block-menu-block ul.menu li,
+#sidebar-first .block-menu-block ul li.collapsed {
+	list-style-image: none;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#sidebar-first .nav > li > a {
+	padding: 3px 12px;
+}
+.sidebar ul.nav ul li a {
+	padding: 3px 12px 3px 24px;
+}
+#sidebar-first .nav > li > a.active-trail,
+#sidebar-first .nav > li > a.active {
+	background-color: #611322;
+	color: #fff;
+}
+.dropdown-menu li > a:hover,
+.dropdown-menu li > a:focus,
+.dropdown-submenu:hover > a,
+.dropdown-menu .active > a,
+.dropdown-menu .active > a:hover {
+	background-color: #611322;
+	color: #fff;
+  background-image: none;
+}
+
+
+/* SIDEBAR BLOCKS */
+#sidebar-first .block-block {
+	background-color: #ddd;
+	margin-left: 1.2em;
+}
+#sidebar-first .block-block h2 {
+	background-color: #000;
+	margin: 0;
+	padding: 6px 20px;
+ font-size: 14px;
+
+ color: #fff;
+}
+#sidebar-first .block-block .content {
+	padding: 18px;
+}
+
+/* =FRONT PAGE
+-------------------------------------------------------------- */
+#content-head {
+	margin: 0;
+}
+#banner {
+	background-image: url(../images/front-banner.jpg);
+	background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  height: 100%;
+  border-top: 3px solid #611322;
+}
+#main #block-block-7.block {
+	margin-bottom: 0;
+}
+#block-block-7 h2 {
+	display: block;
+	background-color: #611322;
+	width: 40%;
+	margin: 30px 0 0 20px;
+	padding: 10px 10px 10px 20px;
+	font-size: 34px;
+	color: #fff;
+}
+#block-block-7 .content {
+	display: block;
+	background-color: #111;
+	width: 55%;
+	margin: 0 0 40px 20px;
+	padding: 15px 10px 1px 20px;
+	font-size: 18px;
+	line-height: 1.3em;
+	color: #fff;
+}
+#block-block-5 h2 a,
+#block-block-6 h2 a,
+#block-block-8 h2 a {
+	display: block;
+	margin: 30px;
+	padding-top: 90px;
+	color: #000;
+	text-align: center;
+}
+#block-block-5 h2 a {
+	background: transparent url(../images/icn-host.png) 50% 0 no-repeat;
+}
+#block-block-6 h2 a {
+	background: transparent url(../images/icn-create.png) 50% 0 no-repeat;
+}
+#block-block-8 h2 a {
+	background: transparent url(../images/icn-community.png) 50% 0 no-repeat;
+}
+#block-block-5 h2 a:hover,
+#block-block-6 h2 a:hover,
+#block-block-8 h2 a:hover {
+	color: #621322;
+}
+
+/*
+ * ====================================================================================
+ * =MEDIA QUERIES
+ * ====================================================================================
+*/
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+	#block-block-7 h2 {
+		width: 40%;
+		margin: 30px 0 0 20px;
+		padding: 10px 10px 10px 20px;
+		font-size: 40px;
+	}
+	#block-block-7 .content {
+		width: 55%;
+		margin: 0 0 40px 20px;
+		padding: 15px 10px 1px 20px;
+		font-size: 24px;
+	}
+
+
+  #highlighted .block h2 {
+    float: left;
+    margin-top: -22px;
+    width: 246px;
+  }
+
+  #highlighted .block p {
+    font-size: 62px;
+    font-weight: bold;
+    line-height: 122%;
+    width: 1136px;
+  }
+
+  /* Collaborate page */
+  .page-node-2160 #highlighted .block p {
+    font-size: 70px;
+  }
+
+}
+
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+	/* Switch to smaller mobile logo */
+	#asu_logo a img {
+		display: none;
+	}
+	#asu_logo {
+		min-width: 77px;
+		padding-top: 8px;
+		padding-left: 10px;
+  }
+	#asu_logo a {
+		background-color: transparent;
+		background-position: left top;
+		background-repeat: no-repeat;
+		background-image: url(http://www.asu.edu/asuthemes/4.0-rsp.1/images/logos/asu_logo_mobile_gold.png);
+		display: block;
+		width: 77px;
+		height: 32px;
+		margin-top: 5px;
+	}
+	#block-block-7 h2 {
+		width: 40%;
+		margin: 30px 0 0 20px;
+		padding: 10px 10px 10px 20px;
+		font-size: 26px;
+	}
+	#block-block-7 .content {
+		width: 55%;
+		margin: 0 0 40px 20px;
+		padding: 15px 10px 1px 20px;
+		font-size: 15px;
+	}
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+
+	#header,
+	#header .container,
+	#header .span12,
+	#header-content,
+	#header-content .region-header,
+	#block-asu-brand-asu-brand-header,
+	#block-asu-brand-asu-brand-header .content {
+		height: 40px;
+	}
+	#name-and-slogan {
+		position: absolute;
+		top: 53px;
+		right: 40px;
+	}
+	#block-block-7 h2 {
+		width: 40%;
+		margin: 30px 0 0 20px;
+		padding: 10px 10px 10px 20px;
+		font-size: 18px;
+	}
+	#block-block-7 .content {
+		width: 65%;
+		margin: 0 0 40px 20px;
+		padding: 15px 10px 1px 20px;
+		font-size: 12px;
+	}
+
+}
+
+@media (max-width: 550px) {
+
+	#block-block-7 h2 {
+		font-size: 34px;
+	}
+
+}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+}
+
+#footer {
+  background-color: #000;
+}
+
+
+.page-node-2158 #highlighted h1 {
+  font-size: 69px;
+  line-height: 138%;
+}
