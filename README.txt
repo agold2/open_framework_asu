@@ -1,3 +1,5 @@
+resolve?
+
 Open Framework Subtheming Kit for Drupal 7.x
 
 -- SUMMARY --
